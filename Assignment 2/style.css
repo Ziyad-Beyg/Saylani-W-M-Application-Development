@@ -1,0 +1,37 @@
+#table1{
+    text-align: left;
+    color: white;   
+    line-height: 30px;
+}
+#table2{
+    text-align: left;
+    
+    color: white;
+}
+
+#submit{
+    color: blueviolet;
+}
+
+#thank{
+    color: green;
+}
+
+div{
+    background-color: blueviolet;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+p{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+a{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
