@@ -1,0 +1,375 @@
+#gray{
+    background-color: #c62828;
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.fa-phone{
+    font-size: 20px !important;
+    margin-left: 40px;
+}
+
+#icon1,#icon2,#icon3,#icon4{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#icon1{
+    margin-left: 55em;
+}
+
+h5{
+    margin: 10px;
+}
+
+.fa-facebook,.fa-instagram,.fa-youtube-play{
+    margin-left: 20px;
+    font-size: 30px !important;
+    text-decoration: none;
+    color: #fff;
+}
+
+.fa-user-circle{
+    margin-left: 5px;
+    font-size: 20px !important;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar{
+    background-color: black !important;
+    height: 100px;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+#title {
+    color: white;
+    transition: 1s;
+    font-size: 27px;
+    font-weight: bolder;
+    margin-left: 10px;
+    letter-spacing: 1px;
+    font-family: OpenSans;
+}
+
+#title:hover {
+    transition: 1s;
+    letter-spacing: 3px;
+}
+
+#school{
+    width: 80px;
+    height: 80px;
+}
+
+.dropdown-item{
+    color: black !important;
+}
+
+.dropdown-item:hover{
+    background-color: gray !important;
+    color: black !important;
+}
+
+.nav-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-block{
+    height: 500px;
+}
+
+.boxes{
+    float: left;
+    align-items: center !important;
+    width: 65% !important;
+    /* display: flex; */
+}
+.jumbotron1{
+    background-color: #e6ee9c !important;
+    color: black !important;
+    float: left;
+    margin: 20px 10px 10px 10px  !important;
+    padding: 20px 25px 25px 25px  !important;
+    width: 250px !important;   
+    height: 300px !important;
+}
+
+.btn0{
+    background-color: #cddc39 !important;
+    border: none !important;
+    color: black !important;
+}
+
+.lead1{
+    font-size: 20px !important;
+}
+
+.marquee1{
+    margin-top: 50px !important;
+}
+
+#marquee-modified{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    color: gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    height: 500px;
+    width: 25%;
+    padding-left: 10px;
+    margin-right:50px ;
+    margin-bottom: 200px;
+}
+
+.black{
+    color: black !important;
+    font-weight: bold !important;
+}
+
+.red{
+    color: red !important;
+    font-weight: bold !important;
+}
+
+.boxes_heading{
+    margin: 40px 0px 30px 15px !important;
+}
+
+.marquee1_heading{
+    margin-bottom: 40px !important;
+}
+
+.black1{
+    display: flex;
+    background-color: black !important;
+    width: 100%;
+    height: 300px;
+}
+
+.logo1{
+    float: left;
+    width: 350px !important;
+    height: 350px !important;
+    position: relative;
+    bottom: 30px;
+}
+
+table{
+    color: white !important;
+}
+
+th,td{
+    width: 150px !important;
+}
+
+th{
+    padding-top: 65px !important;
+}
+
+td{
+    padding-top: 5px !important;
+}
+
+.investors{
+    width: 200px !important;
+}
+
+.address{
+    width: 450px !important;
+}
+
+.fa-phone{
+    padding-right: 5px !important; 
+    margin-left: 0px !important;
+}
+
+#ending{
+    background-color: #c62828;
+    color: white;
+    width: 100%;
+    height: 50px !important;
+    display: flex;
+    padding-top: 10px;
+}
+
+.ending_note{
+    /* padding-left: 20px; */
+    font-size: 14px !important;
+}
+
+.copyright{
+    font-size: 13px !important;
+}
+
+.map{
+    margin: 10px 10px 10px 10px !important;
+    float: left;
+    align-items: center !important;
+    width: 55% !important;
+}
+
+iframe{
+    float: left;
+    height: 550px;
+    width: 650px;
+    margin: 5px 10px 10px 10px  !important;
+    padding: 20px 25px 25px 25px  !important;
+}
+
+.blue{
+    color: rgb(19, 19, 177) !important;
+    font-weight: bold !important;
+}
+
+.light_gray{
+    color: rgb(134, 132, 132) !important;
+    font-weight: bold !important;
+}
+
+#marquee-modified1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    color: gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    height: 500px;
+    width: 25%;
+    padding-left: 10px;
+    margin-right:50px ;
+    margin-bottom: 40px;
+}
+
+.boxes_heading1{
+    margin: 40px 0px 30px 30px !important;
+}
+
+.marquee1_heading1{
+    margin: 0px 10px 60px 0px !important;
+}
+
+/* .form-row{
+    width: 70% !important;
+    margin-top: 100px !important;
+    border: 2px solid red;
+    margin-left: 50px !important;
+} */
+
+.form-control{
+    width: 290px !important;
+    margin: 0px 0px 10px 0px !important;
+}
+
+.main1{
+    width: 70% !important;
+    margin-left: 50px !important;
+    margin-top: 50px !important;
+    margin-bottom: 100px !important;
+}
+
+textarea{
+    padding-left: 10px !important;
+    padding-top: 10px !important;
+}
+
+.query{
+    margin-top: 50px !important;
+}
+
+.sign_in{
+    width: 55% !important;
+    margin-top: 50px !important;
+    margin-left: 50px !important;
+
+} 
+
+.portal{
+    border: 3px solid rgb(119, 108, 108);
+    border-radius: 50px;
+    width: 90% !important;
+    padding-top: 50px !important;
+    padding-left: 50px !important;
+    margin-top: 100px !important;
+    margin-left: 50px !important;
+    margin-bottom: 100px !important;
+    height: 400px;
+}
+
+.gallery{
+    width: 220px;
+    height: 150px;
+    margin: 5px 5px 5px 5px;
+}
+
+.portrait{
+    height: 300px !important;
+}
+
+.image_gallery{
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+}
+
+.message{
+    width: 70% !important;    
+}
+
+.jumbotron{
+    margin: 25px 25px 25px 25px !important;
+    background-color: rgb(212, 207, 207) !important;
+}
+
+.btn9{
+    background-color: rgb(26, 26, 146) !important;
+}
+
+.last{
+    margin-bottom: 50px !important;
+}
+
+.jumbotron-box{
+    margin-top: 100px !important;
+}
+
+.jumbotron2{
+    float: left;
+}
+
+.jumbotron2-images{
+    margin: 25px 25px 25px 25px !important;
+    width: 375px !important;
+    height: 300px !important;    
+}
+
+.jumbotron-heading{
+    color: rgb(9, 9, 134);
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 25px !important;
+}
+
+.center-heading{
+    margin-bottom: 50px !important;
+    font-weight: bolder !important;
+    font-family: 'Times New Roman', Times, serif !important;
+}
+
+.black2{
+    color: black !important;
+}
+
+.golden{
+    color: brown !important;
+}
