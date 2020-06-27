@@ -1,0 +1,51 @@
+.main{
+    width: 45%;
+    margin-top: 50px !important;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    /* border: 2px double darkred; */
+    background-color: black;
+}
+
+.btn{
+    width: 80px;
+    height: 40px;
+    margin: 12px;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: rgba(92, 86, 86, 0.973);
+}
+
+.heading{
+    color: orange;
+    font: bolder;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.clear-btn,.equalsto-btn{
+    width: 100px;
+    height: 110px;
+    padding: 0 auto;
+    margin: 12px;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: rgb(255, 136, 0);
+}
+
+.input-textbox{
+    width: 95%;
+    height: 35px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    background-color: gray;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
