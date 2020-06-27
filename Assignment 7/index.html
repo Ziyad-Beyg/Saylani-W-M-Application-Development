@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+         <center>
+            <div class="heading">
+                <h1>THE CALCULATOR</h1>
+            </div>
+         </center>
+        <table>
+            <tr>
+                <div>
+                    <input id="input_number" class="input-textbox" type="text">
+                </div>
+            </tr>
+            <tr>
+                <div>
+                    <td>
+                        <button class="btn" onclick="number_by_input('7')">7</button>
+                    </td>
+                    <td>
+                        <button class="btn" onclick="number_by_input('8')">8</button>
+                    </td>
+                    <td>
+                        <button class="btn" onclick="number_by_input('9')">9</button>
+                    </td>
+                    <td>
+                        <button class="btn" onclick="number_by_input('/')">/</button>
+                    </td>
+                    <td rowspan="2">
+                        <button class="clear-btn" onclick="clear_input()">Clear</button>
+                    </td>
+                </div>
+            </tr>
+            <tr>
+                <div>
+                    <td>
+                        <button class="btn" onclick="number_by_input('4')">4</button>
+                    </td>
+                    <td>
+                        <button class="btn" onclick="number_by_input('5')">5</button>
+                    </td>
+                    <td>
+                        <button class="btn" onclick="number_by_input('6')">6</button>
+                    </td>
+                    <td>
+                        <button class="btn" onclick="number_by_input('*')">*</button>
+                    </td>
+                </div>
+            </tr>
+            <tr>
+                <div>
+                    <td>
+                        <button class="btn" onclick="number_by_input('1')">1</button>
+                    </td>
+                    <td>
+                        <button class="btn" onclick="number_by_input('2')">2</button>
+                    </td>
+                    <td>
+                        <button class="btn" onclick="number_by_input('3')">3</button>
+                    </td>
+                    <td>
+                        <button class="btn" onclick="number_by_input('-')">-</button>
+                    </td>
+                    <td rowspan="2">
+                        <button class="equalsto-btn" onclick="calculate_input()">=</button>
+                    </td>
+                </div>
+            </tr>
+            <tr>
+                <div>
+                    <td>
+                        <button class="btn" onclick="number_by_input('0')">0</button>
+                    </td>
+                    <td>
+                        <button class="btn" onclick="number_by_input('.')">.</button>
+                    </td>
+                    <td>
+                        <button class="btn" onclick="number_by_input('%')">%</button>
+                    </td>
+                    <td>
+                        <button class="btn" onclick="number_by_input('+')">+</button>
+                    </td>
+                </div>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>
