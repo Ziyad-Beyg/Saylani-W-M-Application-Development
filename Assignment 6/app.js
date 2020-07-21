@@ -159,7 +159,13 @@ for(var i = 0; i < array_named_A.length; i++){
 // For character codes of a-z, A-Z & 0-9, refer to ASCII
 // table at the end of this document.
 
-// var ;
+var user = prompt("Enter your new password:");
+if(user[0] >= 1 && user[0] <= 9) {
+    alert("Enter a valid password");
+}
+else if(user.length < 6) {
+    alert("Enter a valid password");
+}
 
 // 16. Write a program to convert the following string to an
 // array using string split method.
@@ -278,7 +284,9 @@ document.write("Random number between 1 to 100: " + ceil_random_number_in_my_bro
 // c. 50.2kgs
 // d. 50.2kilograms
 
-// var weight_by_user_input = +prompt
+var weight = prompt("Enter your weight in kilograms:");
+weight = parseFloat(weight);
+document.write("The weight of user is " + weight + " kilograms");
 
 // 8. Write a program that stores a random secret number from
 // 1 to 10 in a variable. Ask the user to input a number
